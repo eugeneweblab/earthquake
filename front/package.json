@@ -1,0 +1,43 @@
+{
+	"name": "earthquake_frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint . && prettier --check . && tsc --noEmit",
+		"lint:fix": "eslint . --fix && prettier --write . && tsc --noEmit"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.11.10",
+		"@emotion/react": "^11.13.5",
+		"@emotion/styled": "^11.13.5",
+		"bootstrap": "^5.3.3",
+		"graphql": "^16.9.0",
+		"js-cookie": "^3.0.5",
+		"jsonwebtoken": "^9.0.2",
+		"next": "^15.0.3",
+		"react": "^18.3.1",
+		"react-bootstrap": "^2.10.5",
+		"react-datepicker": "^7.5.0",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@types/js-cookie": "^3.0.6",
+		"@types/jsonwebtoken": "^9.0.7",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-datepicker": "^7.0.0",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"eslint-config-next": "15.0.3",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"eslint-plugin-unused-imports": "^4.1.4",
+		"prettier": "^3.3.3",
+		"typescript": "^5"
+	}
+}
